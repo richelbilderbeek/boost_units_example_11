@@ -30,10 +30,10 @@ namespace boost {
 namespace units {
 namespace si {
 typedef unit<volumetric_flow_dimension,si::system> volumetric_flow;
-BOOST_UNITS_STATIC_CONSTANT(cubic_meter_per_second,volumetric_flow);
-BOOST_UNITS_STATIC_CONSTANT(cubic_meters_per_second,volumetric_flow);
-BOOST_UNITS_STATIC_CONSTANT(cubic_metre_per_second,volumetric_flow);
-BOOST_UNITS_STATIC_CONSTANT(cubic_metres_per_second,volumetric_flow);
+BOOST_UNITS_STATIC_CONSTANT(cubic_meter_per_second,volumetric_flow); //!OCLINT indeed long variable name, but I choose to keep it in, for the sake of readability of this example code
+BOOST_UNITS_STATIC_CONSTANT(cubic_meters_per_second,volumetric_flow); //!OCLINT indeed long variable name, but I choose to keep it in, for the sake of readability of this example code
+BOOST_UNITS_STATIC_CONSTANT(cubic_metre_per_second,volumetric_flow); //!OCLINT indeed long variable name, but I choose to keep it in, for the sake of readability of this example code
+BOOST_UNITS_STATIC_CONSTANT(cubic_metres_per_second,volumetric_flow); //!OCLINT indeed long variable name, but I choose to keep it in, for the sake of readability of this example code
 } // namespace si
 } // namespace units
 } //namespace boost
